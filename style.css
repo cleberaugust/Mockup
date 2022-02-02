@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background: rgb(215, 213, 218);
+    height: 100vh;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    background: white;
+}
+
+.menu__principal{
+    max-width: 1020px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.menu{
+    width: 100%;
+    height: 83px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgb(226, 226, 226);
+}
+
+.nav{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 90px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+
+
+
+.container__nome{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: rgb(255, 255, 255);    
+}
+
+.nome{
+    width: 350px;
+    height: 350px;
+    margin: 0 100px 0 0;
+    color: rgb(48, 46, 46);
+    text-align: left;
+    border-radius: 20px;
+    border:  2px solid #b4b5b6; 
+    
+}
+
+.nome h1,h2{
+    color: blueviolet;
+    padding: 0 0 0 35px;
+}
+
+.nome p{
+    margin: 20px;
+    text-align: left;
+}
+
+.foto{
+    width: 350px;
+    height: 350px;
+    margin: 0 0 0 100px;
+    color: rgb(48, 46, 46);
+    border-radius: 20px;
+    border:  2px solid #b4b5b6;  
+    justify-content: center;
+    align-items: center;
+    font-size: px;
+    display: flex;
+}
+
+.hr{
+    clear: both;
+    border: 0;
+    border-bottom: 2px solid #296fac;
+}
+
+.container__hobbies{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: white;    
+}
+
+
+.hobbies{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 0 0 0 5px;
+    text-align: center;
+}
+
+.hobbies h3{
+    padding: 70px 0 0 0 ;
+}
+
+.container__sub_header{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: white;
+
+}
+
+.circulo{
+    background: #d6dee5;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 90px;
+    padding: 0 0 15px 0;
+    border-radius: 25px;
+}
+
+.sub_header{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 15px 0 15px 20px;
+    text-align: center;
+}
+
+.sub_header h4{
+    margin: 20px 0 0 0;
+}
+
+.container__perfil{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.perfil{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 0 0 0 5px;
+    text-align: center;
+}
+
+.perfil h1{
+    padding: 0x 0 0 0 ;
+}
+
+.container__imagens{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: white;
+
+}
+
+.imagens{
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    margin: 15px 0 15px 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid rgb(66, 65, 65);
+}
+
+h1{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;   
+    background: white; 
+}
+
+.circulo2{
+    background: #d6dee5;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 90px;
+    padding: 0 0 15px 0;
+    border-radius: 25px;
+}
+
+
+section{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+    background: white;   
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #d6dee5 ;
+    border-radius: 11px;
+}
+
+form input:focus, form textarea:focus{
+    background-color: #c9d5e0;
+}
+
+form input[type=submit]{
+    background-color: rgb(153, 172, 209);
+    color: white;
+    cursor: pointer;
+}
