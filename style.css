@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background: rgb(215, 213, 218);
+    background: rgb(243, 243, 245);
     height: 100vh;
     height: 100%;
 }
@@ -78,29 +78,26 @@ nav ul li a{
 }
 
 .nome{
-    width: 350px;
-    height: 350px;
-    margin: 0 100px 0 0;
+    width: 250px;
+    height: 250px;
+    margin: 31px 100px 0 0;
     color: rgb(48, 46, 46);
     text-align: left;
-    border-radius: 20px;
-    border:  2px solid #b4b5b6; 
-    
-}
+ }
 
-.nome h1,h2{
-    color: blueviolet;
-    padding: 0 0 0 35px;
+.nome h2,h3{
+    padding: 12px 0 0 10px;
+    margin: 10px 0 0 0;
 }
 
 .nome p{
-    margin: 20px;
+    margin: 10px;
     text-align: left;
 }
 
 .foto{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     margin: 0 0 0 100px;
     color: rgb(48, 46, 46);
     border-radius: 20px;
@@ -109,12 +106,6 @@ nav ul li a{
     align-items: center;
     font-size: px;
     display: flex;
-}
-
-.hr{
-    clear: both;
-    border: 0;
-    border-bottom: 2px solid #296fac;
 }
 
 .container__hobbies{
@@ -138,7 +129,8 @@ nav ul li a{
 }
 
 .hobbies h3{
-    padding: 70px 0 0 0 ;
+    padding: 70px 0 12px 0 ;
+    font-size: 30px;
 }
 
 .container__sub_header{
@@ -234,11 +226,14 @@ h1{
     background: #d6dee5;
     width: 50px;
     height: 50px;
-    margin: 0 0 0 90px;
+    margin: 34px 0 0 90px;
     padding: 0 0 15px 0;
     border-radius: 25px;
 }
 
+.imagens p{
+    margin: 33px 0 0 0;
+}
 
 section{
     max-width: 1000px;
