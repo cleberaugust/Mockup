@@ -32,7 +32,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: rgb(87, 172, 221);
+    background: rgb(221, 87, 87);
 }
 
 .nav{
